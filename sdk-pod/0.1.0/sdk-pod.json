@@ -1,0 +1,25 @@
+{
+  "name": "sdk-pod",
+  "version": "0.1.0",
+  "summary": "A short description of sdk-pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jveronezi/sdk-pod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jveronezi": "jveronezi@fullstacklabs.co"
+  },
+  "source": {
+    "git": "https://github.com/jveronezi/sdk-pod.git",
+    "tag": "0.1.0"
+  },
+  "ios": {
+    "deployment_target": "10.0"
+  },
+  "source_files": "sdk-pod/Classes/**/*",
+  "dependencies": {
+    "React": ["0.67.4"]
+  }
+}
