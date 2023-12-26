@@ -21,7 +21,7 @@
   },
   "header_dir": "cxxreact",
   "dependencies": {
-    "boost": ["1.76.0"],
+    "boost": ["1.83.0"],
     "DoubleConversion": [],
     "RCT-Folly": ["2022.05.16.00"],
     "glog": [],
