@@ -20,6 +20,17 @@
   },
   "source_files": "sdk-pod/Classes/**/*",
   "dependencies": {
-    "React": ["0.73.1"]
+    "React-Core": ["0.73.1"],
+    "React-Core/DevSupport": ["0.73.1"],
+    "React-Core/RCTWebSocket": ["0.73.1"],
+    "React-RCTActionSheet": ["0.73.1"],
+    "React-RCTAnimation": ["0.73.1"],
+    "React-RCTBlob": ["0.73.1"],
+    "React-RCTImage": ["0.73.1"],
+    "React-RCTLinking": ["0.73.1"],
+    "React-RCTNetwork": ["0.73.1"],
+    "React-RCTSettings": ["0.73.1"],
+    "React-RCTText": ["0.73.1"],
+    "React-RCTVibration": ["0.73.1"]
   }
 }
