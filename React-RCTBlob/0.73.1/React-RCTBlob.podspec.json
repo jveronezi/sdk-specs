@@ -22,7 +22,7 @@
     "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/RCT-Folly\""
   },
   "dependencies": {
-    "RCT-Folly": ["2021.06.28.00-v2"],
+    "RCT-Folly": ["2022.05.16.00"],
     "FBReactNativeSpec": ["0.73.1"],
     "ReactCommon/turbomodule/core": ["0.73.1"],
     "React-jsi": ["0.73.1"],
