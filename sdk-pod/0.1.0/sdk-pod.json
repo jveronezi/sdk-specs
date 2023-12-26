@@ -15,11 +15,11 @@
     "git": "https://github.com/jveronezi/sdk-pod.git",
     "tag": "0.1.0"
   },
-  "ios": {
-    "deployment_target": "10.0"
+  "platforms": {
+    "ios": "13.4"
   },
   "source_files": "sdk-pod/Classes/**/*",
   "dependencies": {
-    "React": ["0.67.4"]
+    "React": ["0.73.1"]
   }
 }
