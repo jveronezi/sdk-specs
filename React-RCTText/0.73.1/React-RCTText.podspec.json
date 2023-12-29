@@ -7,7 +7,7 @@
   "license": "MIT",
   "authors": "Facebook, Inc. and its affiliates",
   "platforms": {
-    "ios": "11.0"
+    "ios": "15.0"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",

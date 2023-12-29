@@ -28,7 +28,7 @@
     "-fPIC"
   ],
   "platforms": {
-    "ios": "11.0"
+    "ios": "15.0"
   },
   "source_files": "ReactCommon/yoga/yoga/**/*.{cpp,h}",
   "public_header_files": "ReactCommon/yoga/yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h"

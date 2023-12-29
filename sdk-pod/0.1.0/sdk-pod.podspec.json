@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "13.4"
+    "ios": "15"
   },
   "source_files": "sdk-pod/Classes/**/*",
   "dependencies": {
