@@ -1,6 +1,6 @@
 {
   "name": "sdk-pod",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of sdk-pod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jveronezi/sdk-pod",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/jveronezi/sdk-pod.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "15"
   },
-  "source_files": "sdk-pod/Classes/**/*",
+  "source_files": "Pod/Classes/**/*.{h,m}",
   "dependencies": {
     "React": ["0.73.1"],
     "React-Core": ["0.73.1"],
