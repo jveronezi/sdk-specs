@@ -27,14 +27,5 @@
     "React-Core": ["0.73.1"],
     "React-jsi": ["0.73.1"],
     "ReactCommon/turbomodule/core": ["0.73.1"]
-  },
-  "script_phases": [
-    {
-      "name": "Fix No member named cancelButtonTintColor in JS::NativeActionSheetManage",
-      "script": "sed -i \".bak\" \"s/options.cancelButtonTintColor/options.tintColor/g\" React-CoreModules/React/CoreModules/RCTActionSheetManager.mm",
-      "execution_position": "before_compile",
-      "output_files": ["./script_phase-PaciolanSDK.log"],
-      "show_env_vars_in_log": true
-    }
-  ]
+  }
 }
