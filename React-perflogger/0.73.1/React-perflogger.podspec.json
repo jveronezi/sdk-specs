@@ -4,14 +4,14 @@
   "summary": "-",
   "homepage": "https://reactnative.dev/",
   "license": "MIT",
-  "authors": "Facebook, Inc. and its affiliates",
+  "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "15.0"
+    "ios": "12.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "ReactCommon/reactperflogger/**/*.{cpp,h}",
+  "source_files": "**/*.{cpp,h}",
   "header_dir": "reactperflogger"
 }
