@@ -25,7 +25,6 @@
   "frameworks": "AudioToolbox",
   "dependencies": {
     "RCT-Folly": ["2022.05.16.00"],
-    "React-Codegen": ["0.73.1"],
     "ReactCommon/turbomodule/core": ["0.73.1"],
     "React-jsi": ["0.73.1"],
     "React-Core/RCTVibrationHeaders": ["0.73.1"]

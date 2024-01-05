@@ -13,7 +13,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "**/*.{c,m,mm,cpp}",
+  "source_files": "React/CoreModules/**/*.{c,m,mm,cpp}",
   "header_dir": "CoreModules",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
@@ -21,7 +21,6 @@
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/React/CoreModules\" \"$(PODS_ROOT)/RCT-Folly\" \"${PODS_ROOT}/Headers/Public/React-Codegen/react/renderer/components\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-Codegen/React_Codegen.framework/Headers\""
   },
   "dependencies": {
-    "React-Codegen": ["0.73.1"],
     "RCT-Folly": ["2022.05.16.00"],
     "RCTTypeSafety": ["0.73.1"],
     "React-Core/CoreModulesHeaders": ["0.73.1"],
