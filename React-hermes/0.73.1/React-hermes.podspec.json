@@ -30,11 +30,11 @@
     "React-jsiexecutor": ["0.73.1"],
     "React-jsinspector": ["0.73.1"],
     "React-perflogger": ["0.73.1"],
-    "RCT-Folly": ["2022.05.16.00"],
+    "RCT-Folly": ["2024.01.01.00"],
     "DoubleConversion": [],
     "fmt": ["~> 6.2.1"],
     "glog": [],
-    "RCT-Folly/Futures": ["2022.05.16.00"],
+    "RCT-Folly/Futures": ["2024.01.01.00"],
     "hermes-engine": [],
     "React-jsi": []
   }

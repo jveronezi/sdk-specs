@@ -23,7 +23,7 @@
   "dependencies": {
     "boost": ["1.83.0"],
     "DoubleConversion": [],
-    "RCT-Folly": ["2022.05.16.00"],
+    "RCT-Folly": ["2024.01.01.00"],
     "glog": [],
     "React-jsinspector": ["0.73.1"],
     "React-callinvoker": ["0.73.1"],
