@@ -34,7 +34,6 @@
     "DoubleConversion": [],
     "fmt": ["~> 6.2.1"],
     "glog": [],
-    "RCT-Folly/Futures": ["2024.01.01.00"],
     "hermes-engine": [],
     "React-jsi": []
   }
