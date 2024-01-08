@@ -12,6 +12,6 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "ReactCommon/callinvoker/ReactCommon/*.{cpp,h}",
+  "source_files": "ReactCommon/callinvoker/**/*.{cpp,h}",
   "header_dir": "ReactCommon"
 }
