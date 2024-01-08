@@ -10,7 +10,7 @@
   "authors": "Rene Rivera",
   "source": {
     "http": "https://boostorg.jfrog.io/artifactory/main/release/1.76.0/source/boost_1_76_0.tar.bz2",
-    "sha256": "f0397ba6e982c4450f27bf32a2a83292aba035b827a5623a14636ea583318c41"
+    "sha256": "5e89103d9b70bba5c91a794126b169cb67654be2051f90cf7c22ba6893ede0ff"
   },
   "platforms": {
     "ios": "13.4"
