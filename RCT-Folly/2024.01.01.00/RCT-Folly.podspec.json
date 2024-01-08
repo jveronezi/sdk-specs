@@ -48,6 +48,7 @@
     "folly/net/NetOps.cpp",
     "folly/portability/SysUio.cpp",
     "folly/synchronization/SanitizeThread.cpp",
+    "folly/synchronization/SanitizeThread.h",
     "folly/synchronization/RelaxedAtomic.h",
     "folly/system/AtFork.cpp",
     "folly/system/ThreadId.cpp",
