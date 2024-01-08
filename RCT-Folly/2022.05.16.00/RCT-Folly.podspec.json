@@ -84,7 +84,7 @@
   },
   "default_subspecs": "Default",
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.4"
   },
   "subspecs": [
     {
