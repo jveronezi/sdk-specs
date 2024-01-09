@@ -1,17 +1,20 @@
 {
-  "name": "RCTRequired",
+  "name": "React-nativeconfig",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "**/*.{c,h,m,mm,cpp}",
-  "header_dir": "RCTRequired"
+  "source_files": "react/config/*.{m,mm,cpp,h}",
+  "header_dir": "react/config",
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
+  }
 }

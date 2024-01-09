@@ -6,7 +6,7 @@
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "13.4"
+    "ios": "12.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
@@ -26,12 +26,14 @@
       "$(PODS_ROOT)/fmt/include",
       "$(PODS_ROOT)/RCT-Folly",
       "${PODS_ROOT}/Headers/Public/FlipperKit",
-      "$(PODS_ROOT)/Headers/Public/ReactCommon"
+      "$(PODS_ROOT)/Headers/Public/ReactCommon",
+      "$(PODS_ROOT)/Headers/Public/React-hermes",
+      "$(PODS_ROOT)/Headers/Public/hermes-engine"
     ],
     "DEFINES_MODULE": "YES",
     "GCC_PREPROCESSOR_DEFINITIONS": "RCT_METRO_PORT=${RCT_METRO_PORT}",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
-    "FRAMEWORK_SEARCH_PATHS": ""
+    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_CONFIGURATION_BUILD_DIR)/React-hermes\""
   },
   "user_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/React-Core\""
@@ -48,7 +50,8 @@
     "React-runtimescheduler": [],
     "Yoga": [],
     "glog": [],
-    "React-jsc": []
+    "React-hermes": [],
+    "hermes-engine": []
   },
   "subspecs": [
     {
@@ -60,7 +63,8 @@
         "React/Fabric/**/*",
         "React/FBReactNativeSpec/**/*",
         "React/Tests/**/*",
-        "React/Inspector/**/*"
+        "React/Inspector/**/*",
+        "React/CxxBridge/JSCExecutorFactory.{h,mm}"
       ],
       "private_header_files": "React/Cxx*/*.h"
     },

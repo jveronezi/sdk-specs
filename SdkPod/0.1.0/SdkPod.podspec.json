@@ -1,9 +1,9 @@
 {
   "name": "SdkPod",
-  "version": "0.1.9",
-  "summary": "A short description of sdk-pod.",
+  "version": "0.1.0",
+  "summary": "A short description of SdkPod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jveronezi/sdk-pod",
+  "homepage": "https://github.com/jveronezi/SdkPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,17 +12,17 @@
     "jveronezi": "jveronezi@fullstacklabs.co"
   },
   "source": {
-    "git": "https://github.com/jveronezi/sdk-pod.git",
-    "tag": "0.1.9"
+    "git": "https://github.com/jveronezi/SdkPod.git",
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "13.4"
   },
-  "source_files": "Pod/Classes/**/*.{h,m,swift}",
-  "resources": "Pod/Assets/{SdkPod.js,assets}",
+  "source_files": "SdkPod/Classes/**/*.{h,m,swift}",
+  "resources": "SdkPod/Assets/{SdkPod.js,assets}",
   "ios": {
     "resource_bundles": {
-      "SdkPod": ["Pod/Assets/{SdkPod.js,assets}"]
+      "SdkPod": ["SdkPod/Assets/{SdkPod.js,assets}"]
     }
   },
   "dependencies": {
@@ -44,7 +44,7 @@
     "FBReactNativeSpec": ["0.73.1"],
     "RCTTypeSafety": ["0.73.1"],
     "ReactCommon": ["0.73.1"],
-    "Yoga": ["1.14.1"],
+    "Yoga": ["1.14.0"],
     "RCTRequired": ["0.73.1"],
     "FBLazyVector": ["0.73.1"],
     "React-jsinspector": ["0.73.1"],
@@ -52,8 +52,12 @@
     "React-perflogger": ["0.73.1"],
     "React-runtimeexecutor": ["0.73.1"],
     "React-logger": ["0.73.1"],
+    "React-hermes": ["0.73.1"],
+    "React-debug": ["0.73.1"],
+    "React-utils": ["0.73.1"],
+    "React-runtimescheduler": ["0.73.1"],
     "DoubleConversion": ["1.1.6"],
-    "RCT-Folly": ["2024.01.01.00"],
+    "RCT-Folly": ["2022.05.16.00"],
     "glog": ["0.3.5"],
     "boost": ["1.83.0"]
   }
