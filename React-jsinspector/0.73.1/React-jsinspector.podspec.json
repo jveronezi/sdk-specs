@@ -6,13 +6,13 @@
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "11.0"
+    "ios": "13.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "*.{cpp,h}",
+  "source_files": "ReactCommon/jsinspector/*.{cpp,h}",
   "header_dir": "jsinspector",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
