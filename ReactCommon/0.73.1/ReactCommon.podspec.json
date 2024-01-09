@@ -13,6 +13,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
+  "source_files": "ReactCommon/callinvoker/**/*.{cpp,h}",
   "header_dir": "ReactCommon",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments -Wno-documentation",
   "pod_target_xcconfig": {
@@ -54,7 +55,10 @@
         },
         {
           "name": "core",
-          "source_files": "react/nativemodule/core/ReactCommon/**/*.{cpp,h}"
+          "source_files": [
+            "ReactCommon/react/nativemodule/core/ReactCommon/**/*.{cpp,h}",
+            "ReactCommon/react/nativemodule/core/platform/ios/**/*.{mm,cpp,h}"
+          ]
         }
       ]
     }
