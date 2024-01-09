@@ -26,7 +26,7 @@
     "glog": [],
     "hermes-engine": []
   },
-  "source_files": "**/*.{cpp,h}",
+  "source_files": "ReactCommon/jsi/**/*.{cpp,h}",
   "exclude_files": [
     "jsi/jsilib-posix.cpp",
     "jsi/jsilib-windows.cpp",
