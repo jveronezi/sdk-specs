@@ -12,8 +12,8 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "react/renderer/components/image/**/*.{m,mm,cpp,h}",
-  "exclude_files": "react/renderer/components/image/tests",
+  "source_files": "ReactCommon/renderer/components/image/*.{m,mm,cpp,h}",
+  "exclude_files": "ReactCommon/react/renderer/components/image/tests",
   "header_dir": "react/renderer/components/image",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
   "pod_target_xcconfig": {

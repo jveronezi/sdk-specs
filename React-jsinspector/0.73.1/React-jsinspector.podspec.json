@@ -12,7 +12,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "ReactCommon/jsinspector/*.{cpp,h}",
+  "source_files": "ReactCommon/jsinspector-modern/*.{cpp,h}",
   "header_dir": "jsinspector",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"

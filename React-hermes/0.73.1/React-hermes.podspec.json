@@ -13,10 +13,10 @@
     "tag": "v0.73.1"
   },
   "source_files": [
-    "executor/*.{cpp,h}",
-    "inspector-modern/*.{cpp,h}",
-    "inspector-modern/chrome/*.{cpp,h}",
-    "inspector-modern/detail/*.{cpp,h}"
+    "ReactCommon/hermes/executor/*.{cpp,h}",
+    "ReactCommon/hermes/inspector-modern/*.{cpp,h}",
+    "ReactCommon/hermes/inspector-modern/chrome/*.{cpp,h}",
+    "ReactCommon/hermesinspector-modern/detail/*.{cpp,h}"
   ],
   "public_header_files": "executor/HermesExecutorFactory.h",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation",

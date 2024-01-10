@@ -46,7 +46,7 @@
             "React-jsi": ["0.73.1"],
             "hermes-engine": []
           },
-          "source_files": "react/bridging/**/*.{cpp,h}",
+          "source_files": "ReactCommon/react/bridging/**/*.{cpp,h}",
           "exclude_files": "react/bridging/tests",
           "header_dir": "react/bridging",
           "pod_target_xcconfig": {

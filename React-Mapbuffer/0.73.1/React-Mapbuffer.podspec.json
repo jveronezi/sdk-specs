@@ -12,7 +12,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "react/renderer/mapbuffer/*.{cpp,h}",
+  "source_files": "ReactCommon/react/renderer/mapbuffer/*.{cpp,h}",
   "exclude_files": "react/renderer/mapbuffer/tests",
   "public_header_files": "react/renderer/mapbuffer/*.h",
   "header_dir": "react/renderer/mapbuffer",

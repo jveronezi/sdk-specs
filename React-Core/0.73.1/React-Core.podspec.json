@@ -89,7 +89,7 @@
     },
     {
       "name": "CoreModulesHeaders",
-      "source_files": "React/CoreModules/**/*.h",
+      "source_files": "React/CoreModules/*.h",
       "dependencies": {
         "React-Core/Default": []
       }
