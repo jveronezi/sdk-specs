@@ -56,7 +56,7 @@
   "subspecs": [
     {
       "name": "Default",
-      "source_files": "React/**/*.{c,h,m,mm,S,cpp}",
+      "source_files": "packages/react-native/React/**/*.{c,h,m,mm,S,cpp}",
       "exclude_files": [
         "React/CoreModules/**/*",
         "React/DevSupport/**/*",
@@ -71,8 +71,8 @@
     {
       "name": "DevSupport",
       "source_files": [
-        "React/DevSupport/*.{h,mm,m}",
-        "React/Inspector/*.{h,mm,m}"
+        "packages/react-native/React/DevSupport/*.{h,mm,m}",
+        "packages/react-native/React/Inspector/*.{h,mm,m}"
       ],
       "dependencies": {
         "React-Core/Default": ["0.73.1"],
@@ -89,7 +89,7 @@
     },
     {
       "name": "CoreModulesHeaders",
-      "source_files": "React/CoreModules/*.h",
+      "source_files": "packages/react-native/React/CoreModules/**/*.h",
       "dependencies": {
         "React-Core/Default": []
       }
