@@ -1,5 +1,7 @@
 {
   "name": "React-Mapbuffer",
+  "header_mappings_dir": "./",
+  "module_name": "React_Mapbuffer",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
@@ -14,8 +16,8 @@
   },
   "source_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/*.{cpp,h}",
   "exclude_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/tests",
-  "public_header_files": "react/renderer/mapbuffer/*.h",
-  "header_dir": "react/renderer/mapbuffer",
+  "public_header_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/*.h",
+  "header_dir": "packages/react-native/ReactCommon/react/renderer/mapbuffer",
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-debug/React_debug.framework/Headers\"",
     "USE_HEADERMAP": "YES",

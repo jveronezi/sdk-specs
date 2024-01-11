@@ -1,5 +1,7 @@
 {
   "name": "React-nativeconfig",
+  "header_mappings_dir": "./",
+  "module_name": "React_nativeconfig",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
@@ -13,7 +15,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/react/config/*.{m,mm,cpp,h}",
-  "header_dir": "react/config",
+  "header_dir": "packages/react-native/ReactCommon/react/config",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
   }

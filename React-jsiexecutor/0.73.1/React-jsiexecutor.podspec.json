@@ -18,7 +18,7 @@
     "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\"",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
   },
-  "header_dir": "jsireact",
+  "header_dir": "packages/react-native/ReactCommon/jsireact",
   "dependencies": {
     "React-cxxreact": ["0.73.1"],
     "React-jsi": ["0.73.1"],

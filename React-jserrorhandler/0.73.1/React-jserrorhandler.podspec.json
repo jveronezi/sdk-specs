@@ -1,5 +1,7 @@
 {
   "name": "React-jserrorhandler",
+  "module_name": "React_jserrorhandler",
+  "header_mappings_dir": "./",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
@@ -12,8 +14,8 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "header_dir": "jserrorhandler",
   "source_files": "packages/react-native/ReactCommon/jserrohandler/JsErrorHandler.{cpp,h}",
+  "header_dir": "packages/react-native/ReactCommon/jserrorhandler",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",

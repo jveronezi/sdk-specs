@@ -13,5 +13,5 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/Libraries/FBLazyVector/FBLazyVector/*.{c,h,m,mm,cpp}",
-  "header_dir": "FBLazyVector"
+  "header_dir": "packages/react-native/Libraries/FBLazyVector/FBLazyVector"
 }

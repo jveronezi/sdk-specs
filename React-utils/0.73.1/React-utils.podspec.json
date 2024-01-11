@@ -1,5 +1,7 @@
 {
   "name": "React-utils",
+  "module_name": "React_utils",
+  "header_mappings_dir": "../..",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
@@ -14,11 +16,11 @@
   },
   "source_files": "packages/react-native/ReactCommon/react/utils/**/*.{cpp,h,mm}",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32",
-  "header_dir": "react/utils",
+  "header_dir": "packages/react-native/ReactCommon/react/utils",
   "exclude_files": "packages/react-native/ReactCommon/react/utils/tests",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
-    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-debug/React_debug.framework/Headers\"",
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_TARGET_SRCROOT)/ReactCommon\"",
     "DEFINES_MODULE": "YES"
   },
   "dependencies": {

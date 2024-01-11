@@ -13,7 +13,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/runtimeexecutor/**/*.{cpp,h}",
-  "header_dir": "ReactCommon",
+  "header_dir": "packages/react-native/ReactCommon",
   "dependencies": {
     "React-jsi": ["0.73.1"]
   }

@@ -13,7 +13,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/jsinspector-modern/*.{cpp,h}",
-  "header_dir": "jsinspector",
+  "header_dir": "packages/react-native/ReactCommon/jsinspector-modern",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
   }
