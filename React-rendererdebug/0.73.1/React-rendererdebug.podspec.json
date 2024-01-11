@@ -5,6 +5,8 @@
   "homepage": "https://reactnative.dev/",
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
+  "s.header_mappings_dir": "../../..",
+  "module_name": "React_rendererdebug",
   "platforms": {
     "ios": "13.4"
   },
