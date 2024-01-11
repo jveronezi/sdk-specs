@@ -15,7 +15,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/callinvoker/**/*.{cpp,h}",
-  "header_dir": "packages/react-native/ReactCommon",
+  "header_dir": "ReactCommon",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments -Wno-documentation",
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\" \"$(PODS_ROOT)/Headers/Private/React-Core\"",
@@ -49,7 +49,7 @@
           },
           "source_files": "packages/react-native/ReactCommon/react/bridging/**/*.{cpp,h}",
           "exclude_files": "packages/react-native/ReactCommon/react/bridging/tests",
-          "header_dir": "packages/react-native/ReactCommon/react/bridging",
+          "header_dir": "react/bridging",
           "pod_target_xcconfig": {
             "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\""
           }
