@@ -58,13 +58,13 @@
       "name": "Default",
       "source_files": "packages/react-native/React/**/*.{c,h,m,mm,S,cpp}",
       "exclude_files": [
-        "React/CoreModules/**/*",
-        "React/DevSupport/**/*",
-        "React/Fabric/**/*",
-        "React/FBReactNativeSpec/**/*",
-        "React/Tests/**/*",
-        "React/Inspector/**/*",
-        "React/CxxBridge/JSCExecutorFactory.{h,mm}"
+        "packages/react-native/React/CoreModules/**/*",
+        "packages/react-native/React/DevSupport/**/*",
+        "packages/react-native/React/Fabric/**/*",
+        "packages/react-native/React/FBReactNativeSpec/**/*",
+        "packages/react-native/React/Tests/**/*",
+        "packages/react-native/React/Inspector/**/*",
+        "packages/react-native/React/CxxBridge/JSCExecutorFactory.{h,mm}"
       ],
       "private_header_files": "React/Cxx*/*.h"
     },
