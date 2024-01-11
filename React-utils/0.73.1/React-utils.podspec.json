@@ -12,7 +12,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "react/utils/**/*.{cpp,h,mm}",
+  "source_files": "packages/react-native/ReactCommon/react/utils/**/*.{cpp,h,mm}",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32",
   "header_dir": "react/utils",
   "exclude_files": "tests",

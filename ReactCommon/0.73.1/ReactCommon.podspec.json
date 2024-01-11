@@ -13,7 +13,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "ReactCommon/callinvoker/**/*.{cpp,h}",
+  "source_files": "packages/react-native/ReactCommon/callinvoker/**/*.{cpp,h}",
   "header_dir": "ReactCommon",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments -Wno-documentation",
   "pod_target_xcconfig": {
@@ -46,7 +46,7 @@
             "React-jsi": ["0.73.1"],
             "hermes-engine": []
           },
-          "source_files": "ReactCommon/react/bridging/**/*.{cpp,h}",
+          "source_files": "packages/react-native/ReactCommon/react/bridging/**/*.{cpp,h}",
           "exclude_files": "react/bridging/tests",
           "header_dir": "react/bridging",
           "pod_target_xcconfig": {
@@ -56,8 +56,8 @@
         {
           "name": "core",
           "source_files": [
-            "ReactCommon/react/nativemodule/core/ReactCommon/**/*.{cpp,h}",
-            "ReactCommon/react/nativemodule/core/platform/ios/**/*.{mm,cpp,h}"
+            "packages/react-native/ReactCommon/react/nativemodule/core/ReactCommon/**/*.{cpp,h}",
+            "packages/react-native/ReactCommon/react/nativemodule/core/platform/ios/**/*.{mm,cpp,h}"
           ]
         }
       ]

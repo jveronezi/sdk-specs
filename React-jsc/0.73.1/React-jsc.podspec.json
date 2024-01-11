@@ -12,8 +12,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "ReactCommon/jsc/JSCRuntime.{cpp,h}",
-  "exclude_files": "**/test/*",
+  "source_files": "packages/react-native/ReactCommon/jsc/JSCRuntime.{cpp,h}",
   "frameworks": "JavaScriptCore",
   "dependencies": {
     "React-jsi": ["0.73.1"]

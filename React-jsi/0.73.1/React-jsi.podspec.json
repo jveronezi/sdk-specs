@@ -26,11 +26,11 @@
     "glog": [],
     "hermes-engine": []
   },
-  "source_files": "ReactCommon/jsi/**/*.{cpp,h}",
+  "source_files": "packages/react-native/ReactCommon/jsi/**/*.{cpp,h}",
   "exclude_files": [
-    "jsi/jsilib-posix.cpp",
-    "jsi/jsilib-windows.cpp",
-    "**/test/*",
-    "jsi/jsi.cpp"
+    "packages/react-native/ReactCommon/jsi/jsilib-posix.cpp",
+    "packages/react-native/ReactCommon/jsi/jsilib-windows.cpp",
+    "packages/react-native/ReactCommon/**/test/*",
+    "packages/react-native/ReactCommon/jsi/jsi.cpp"
   ]
 }

@@ -12,8 +12,8 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "ReactCommon/react/renderer/mapbuffer/*.{cpp,h}",
-  "exclude_files": "react/renderer/mapbuffer/tests",
+  "source_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/*.{cpp,h}",
+  "exclude_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/tests",
   "public_header_files": "react/renderer/mapbuffer/*.h",
   "header_dir": "react/renderer/mapbuffer",
   "pod_target_xcconfig": {

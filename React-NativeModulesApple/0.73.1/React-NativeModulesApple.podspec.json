@@ -21,7 +21,7 @@
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
     "GCC_WARN_PEDANTIC": "YES"
   },
-  "source_files": "ReactCommon/react/nativemodule/core/plataform/ios/**/*.{mm,cpp,h}",
+  "source_files": "packages/react-native/ReactCommon/react/nativemodule/core/plataform/ios/**/*.{mm,cpp,h}",
   "dependencies": {
     "glog": [],
     "ReactCommon/turbomodule/core": [],

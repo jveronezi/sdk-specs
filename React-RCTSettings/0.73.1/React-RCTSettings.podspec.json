@@ -14,7 +14,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "Libraries/Settings/*.{m,mm}",
+  "source_files": "packages/react-native/Libraries/Settings/*.{m,mm}",
   "preserve_paths": ["package.json", "LICENSE", "LICENSE-docs"],
   "header_dir": "RCTSettings",
   "pod_target_xcconfig": {
