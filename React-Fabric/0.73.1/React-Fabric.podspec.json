@@ -205,8 +205,8 @@
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
           "source_files": "packages/react-native/ReactCommon/react/renderer/components/view/*.{m,mm,cpp,h}",
           "packages/react-native/exclude_files": [
-            "ReactCommon/react/renderer/components/view/tests",
-            "ReactCommon/react/renderer/components/view/platform/android"
+            "packages/react-native/ReactCommon/react/renderer/components/view/tests",
+            "packages/react-native/ReactCommon/react/renderer/components/view/platform/android"
           ],
           "header_dir": "react/renderer/components/view",
           "pod_target_xcconfig": {
@@ -261,13 +261,13 @@
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
       "source_files": [
-        "ReactCommon/react/renderer/textlayoutmanager/platform/ios/**/*.{m,mm,cpp,h}",
-        "ReactCommon/react/renderer/textlayoutmanager/*.{m,mm,cpp,h}"
+        "packages/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/ios/**/*.{m,mm,cpp,h}",
+        "packages/react-native/ReactCommon/react/renderer/textlayoutmanager/*.{m,mm,cpp,h}"
       ],
       "exclude_files": [
-        "ReactCommon/react/renderer/textlayoutmanager/tests",
-        "ReactCommon/react/renderer/textlayoutmanager/platform/android",
-        "ReactCommon/react/renderer/textlayoutmanager/platform/cxx"
+        "packages/react-native/ReactCommon/react/renderer/textlayoutmanager/tests",
+        "packages/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/android",
+        "packages/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/cxx"
       ],
       "header_dir": "react/renderer/textlayoutmanager"
     },

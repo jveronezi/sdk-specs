@@ -47,7 +47,7 @@
             "hermes-engine": []
           },
           "source_files": "packages/react-native/ReactCommon/react/bridging/**/*.{cpp,h}",
-          "exclude_files": "react/bridging/tests",
+          "exclude_files": "packages/react-native/ReactCommon/react/bridging/tests",
           "header_dir": "react/bridging",
           "pod_target_xcconfig": {
             "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\""
