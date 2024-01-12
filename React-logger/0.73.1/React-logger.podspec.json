@@ -18,7 +18,7 @@
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": ""
   },
-  "header_dir": "packages/react-native/ReactCommon/logger",
+  "header_dir": "logger",
   "dependencies": {
     "glog": []
   }

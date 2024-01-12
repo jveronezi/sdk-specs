@@ -15,7 +15,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/react/debug/*.{cpp,h}",
-  "header_dir": "packages/react-native/ReactCommon/react/debug",
+  "header_dir": "react/debug",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
     "DEFINES_MODULE": "YES"

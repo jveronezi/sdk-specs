@@ -14,7 +14,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/React/CoreModules/*.{c,m,mm,cpp}",
-  "header_dir": "packages/react-native/React/CoreModules",
+  "header_dir": "CoreModules",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",

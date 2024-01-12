@@ -16,7 +16,7 @@
   },
   "source_files": "packages/react-native/ReactCommon/react/renderer/components/image/*.{m,mm,cpp,h}",
   "exclude_files": "packages/react-native/ReactCommon/react/renderer/components/image/tests",
-  "header_dir": "packages/react-native/ReactCommon/react/renderer/components/image",
+  "header_dir": "react/renderer/components/image",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",

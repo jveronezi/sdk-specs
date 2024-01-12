@@ -21,7 +21,7 @@
     "packages/react-native/ReactCommon/react/renderer/graphics/platform/android",
     "packages/react-native/ReactCommon/react/renderer/graphics/platform/cxx"
   ],
-  "header_dir": "packages/react-native/ReactCommon/react/renderer/graphics",
+  "header_dir": "react/renderer/graphics",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "NO",
     "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/../../../\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_TARGET_SRCROOT)/platform/ios\"",

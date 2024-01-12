@@ -16,7 +16,7 @@
   },
   "source_files": "packages/react-native/ReactCommon/react/renderer/runtimescheduler/**/*.{cpp,h}",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32",
-  "header_dir": "packages/react-native/ReactCommon/react/renderer/runtimescheduler",
+  "header_dir": "react/renderer/runtimescheduler",
   "exclude_files": "packages/react-native/ReactCommon/react/renderer/runtimescheduler/tests",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",

@@ -15,7 +15,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/jserrohandler/JsErrorHandler.{cpp,h}",
-  "header_dir": "packages/react-native/ReactCommon/jserrorhandler",
+  "header_dir": "jserrorhandler",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",

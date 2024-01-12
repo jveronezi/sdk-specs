@@ -14,7 +14,7 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/React/FBReactNativeSpec/FBReactNativeSpec/*.{h,mm}",
-  "header_dir": "packages/react-native/React/FBReactNativeSpec/FBReactNativeSpec",
+  "header_dir": "FBReactNativeSpec",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
