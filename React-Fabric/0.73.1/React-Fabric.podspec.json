@@ -38,8 +38,7 @@
     "React-runtimescheduler": [],
     "React-cxxreact": [],
     "React-rendererdebug": [],
-    "React-graphics": [],
-    "hermes-engine": []
+    "React-graphics": []
   },
   "subspecs": [
     {

@@ -31,7 +31,6 @@
     "React-Core": [],
     "React-cxxreact": [],
     "React-jsi": [],
-    "React-runtimeexecutor": [],
-    "hermes-engine": []
+    "React-runtimeexecutor": []
   }
 }

@@ -36,15 +36,13 @@
         "RCT-Folly": ["2022.05.16.00"],
         "DoubleConversion": [],
         "fmt": ["~> 6.2.1"],
-        "glog": [],
-        "hermes-engine": []
+        "glog": []
       },
       "subspecs": [
         {
           "name": "bridging",
           "dependencies": {
-            "React-jsi": ["0.73.1"],
-            "hermes-engine": []
+            "React-jsi": ["0.73.1"]
           },
           "source_files": "packages/react-native/ReactCommon/react/bridging/**/*.{cpp,h}",
           "exclude_files": "packages/react-native/ReactCommon/react/bridging/tests",

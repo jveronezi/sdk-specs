@@ -32,7 +32,6 @@
     "React-perflogger": ["0.73.1"],
     "React-jsi": ["0.73.1"],
     "React-logger": ["0.73.1"],
-    "React-debug": ["0.73.1"],
-    "hermes-engine": []
+    "React-debug": ["0.73.1"]
   }
 }

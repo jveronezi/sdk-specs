@@ -31,7 +31,6 @@
     "glog": [],
     "RCT-Folly": ["2022.05.16.00"],
     "React-jsi": [],
-    "React-debug": [],
-    "hermes-engine": []
+    "React-debug": []
   }
 }

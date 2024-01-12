@@ -52,7 +52,6 @@
     "React-perflogger": ["0.73.1"],
     "React-runtimeexecutor": ["0.73.1"],
     "React-logger": ["0.73.1"],
-    "React-hermes": ["0.73.1"],
     "React-debug": ["0.73.1"],
     "React-utils": ["0.73.1"],
     "React-runtimescheduler": ["0.73.1"],

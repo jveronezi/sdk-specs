@@ -29,7 +29,6 @@
     "React-RCTNetwork": [],
     "React-Codegen": [],
     "React-NativeModulesApple": [],
-    "ReactCommon": [],
-    "hermes-engine": []
+    "ReactCommon": []
   }
 }
