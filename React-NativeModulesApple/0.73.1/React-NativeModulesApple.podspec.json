@@ -1,8 +1,7 @@
 {
   "name": "React-NativeModulesApple",
   "module_name": "React_NativeModulesApple",
-  "header_mappings_dir": "./",
-  "header_dir": "packages/react-native/ReactCommon",
+  "header_dir": "ReactCommon",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
