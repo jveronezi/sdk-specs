@@ -13,5 +13,5 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/callinvoker/**/*.{cpp,h}",
-  "header_dir": "packages/react-native/ReactCommon"
+  "header_dir": "ReactCommon"
 }
