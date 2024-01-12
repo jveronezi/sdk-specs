@@ -21,7 +21,7 @@
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
     "GCC_WARN_PEDANTIC": "YES"
   },
-  "source_files": "packages/react-native/ReactCommon/react/nativemodule/core/platform/ios/**/*.{mm,cpp,h}",
+  "source_files": "packages/react-native/ReactCommon/**/*.{mm,cpp,h}",
   "dependencies": {
     "glog": [],
     "ReactCommon/turbomodule/core": [],
@@ -30,6 +30,7 @@
     "React-Core": [],
     "React-cxxreact": [],
     "React-jsi": [],
-    "React-runtimeexecutor": []
+    "React-runtimeexecutor": [],
+    "React-jsc": []
   }
 }

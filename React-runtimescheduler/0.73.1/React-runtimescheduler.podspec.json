@@ -29,6 +29,7 @@
     "glog": [],
     "RCT-Folly": ["2022.05.16.00"],
     "React-jsi": [],
-    "React-debug": []
+    "React-debug": [],
+    "React-jsc": []
   }
 }

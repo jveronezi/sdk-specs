@@ -1,7 +1,5 @@
 {
   "name": "React-Fabric",
-  "header_mappings_dir": "./",
-  "module_name": "React_Fabric",
   "version": "0.73.1",
   "summary": "Fabric for React Native.",
   "homepage": "https://reactnative.dev/",
@@ -38,7 +36,8 @@
     "React-runtimescheduler": [],
     "React-cxxreact": [],
     "React-rendererdebug": [],
-    "React-graphics": []
+    "React-graphics": [],
+    "React-jsc": []
   },
   "subspecs": [
     {

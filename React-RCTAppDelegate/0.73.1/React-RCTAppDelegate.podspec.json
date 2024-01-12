@@ -36,6 +36,7 @@
     "ReactCommon": [],
     "React-NativeModulesApple": [],
     "React-runtimescheduler": [],
-    "React-RCTFabric": []
+    "React-RCTFabric": [],
+    "React-jsc": []
   }
 }

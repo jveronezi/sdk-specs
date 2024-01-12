@@ -47,7 +47,8 @@
     "SocketRocket": ["0.6.1"],
     "React-runtimescheduler": [],
     "Yoga": [],
-    "glog": []
+    "glog": [],
+    "React-jsc": []
   },
   "subspecs": [
     {
@@ -59,8 +60,7 @@
         "packages/react-native/React/Fabric/**/*",
         "packages/react-native/React/FBReactNativeSpec/**/*",
         "packages/react-native/React/Tests/**/*",
-        "packages/react-native/React/Inspector/**/*",
-        "packages/react-native/React/CxxBridge/JSCExecutorFactory.{h,mm}"
+        "packages/react-native/React/Inspector/**/*"
       ],
       "private_header_files": "React/Cxx*/*.h"
     },
