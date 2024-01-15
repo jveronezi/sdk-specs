@@ -13,8 +13,8 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "module_name": "yoga",
-  "header_dir": "yoga",
+  "module_name": "Yoga",
+  "header_dir": "Yoga",
   "requires_arc": false,
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
