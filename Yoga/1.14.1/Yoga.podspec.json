@@ -30,7 +30,7 @@
   "platforms": {
     "ios": "13.4"
   },
-  "source_files": "packages/react-native/ReactCommon/yoga/yoga/**/*.{cpp,h}",
+  "source_files": "yoga/**/*.{cpp,h}",
   "public_header_files": "yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h",
-  "header_mappings_dir": "Yoga"
+  "header_mappings_dir": "yoga"
 }
