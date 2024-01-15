@@ -31,5 +31,5 @@
     "ios": "13.4"
   },
   "source_files": "packages/react-native/ReactCommon/yoga/yoga/**/*.{cpp,h}",
-  "public_header_files": "packages/react-native/ReactCommon/yoga/yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h"
+  "public_header_files": "ReactCommon/yoga/yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h"
 }
