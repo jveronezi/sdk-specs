@@ -32,5 +32,5 @@
   },
   "source_files": "packages/react-native/ReactCommon/yoga/yoga/**/*.{cpp,h}",
   "public_header_files": "packages/react-native/ReactCommon/yoga/yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h",
-  "header_mappings_dir": "Yoga"
+  "header_mappings_dir": "yoga"
 }
