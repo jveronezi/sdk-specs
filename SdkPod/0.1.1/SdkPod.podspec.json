@@ -44,7 +44,7 @@
     "FBReactNativeSpec": ["0.73.1"],
     "RCTTypeSafety": ["0.73.1"],
     "ReactCommon": ["0.73.1"],
-    "Yoga": ["1.14.0"],
+    "Yoga": ["1.14.1"],
     "RCTRequired": ["0.73.1"],
     "FBLazyVector": ["0.73.1"],
     "React-jsinspector": ["0.73.1"],
