@@ -1,7 +1,5 @@
 {
   "name": "React-nativeconfig",
-  "header_mappings_dir": "./",
-  "module_name": "React_nativeconfig",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",

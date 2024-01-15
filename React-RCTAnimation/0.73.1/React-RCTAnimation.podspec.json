@@ -13,7 +13,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "packages/react-native/Libraries/NativeAnimation/{Drivers/*,Nodes/*,*}.{m,mm}",
+  "source_files": "packages/react-native/Libraries/NativeAnimation/**/*.{m,mm}",
   "preserve_paths": ["package.json", "LICENSE", "LICENSE-docs"],
   "header_dir": "RCTAnimation",
   "pod_target_xcconfig": {

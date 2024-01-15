@@ -16,7 +16,7 @@
   },
   "source_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/*.{cpp,h}",
   "exclude_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/tests",
-  "public_header_files": "packages/react-native/ReactCommon/react/renderer/mapbuffer/*.h",
+  "public_header_files": "react/renderer/mapbuffer/*.h",
   "header_dir": "react/renderer/mapbuffer",
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-debug/React_debug.framework/Headers\"",
