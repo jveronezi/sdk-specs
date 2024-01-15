@@ -13,8 +13,8 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "module_name": "yoga",
-  "header_dir": "yoga",
+  "module_name": "Yoga",
+  "header_dir": "Yoga",
   "requires_arc": false,
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
@@ -30,7 +30,7 @@
   "platforms": {
     "ios": "13.4"
   },
-  "source_files": "ReactCommon/yoga/yoga/**/*.{cpp,h}",
-  "public_header_files": "yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h",
-  "header_mappings_dir": "yoga"
+  "source_files": "packages/react-native/ReactCommon/yoga/yoga/**/*.{cpp,h}",
+  "public_header_files": "packages/react-native/ReactCommon/yoga/yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h",
+  "header_mappings_dir": "Yoga"
 }
