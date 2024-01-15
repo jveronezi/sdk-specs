@@ -13,8 +13,8 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "module_name": "Yoga",
-  "header_dir": "Yoga",
+  "module_name": "yoga",
+  "header_dir": "yoga",
   "requires_arc": false,
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
@@ -32,7 +32,7 @@
   },
   "source_files": "packages/react-native/ReactCommon/yoga/yoga/**/*.{cpp,h}",
   "header_mappings_dir": "yoga",
-  "public_header_files": "yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h",
+  "public_header_files": "packages/react-native/ReactCommon/yoga/yoga/{Yoga,YGEnums,YGMacros,YGNode,YGStyle,YGValue}.h",
   "private_header_files": [
     "yoga/Yoga-internal.h",
     "yoga/algorithm/Align.h",
