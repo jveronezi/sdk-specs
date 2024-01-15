@@ -1,5 +1,7 @@
 {
   "name": "React-rendererdebug",
+  "module_name": "React_rendererdebug",
+  "header_mappings_dir": "../../..",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
