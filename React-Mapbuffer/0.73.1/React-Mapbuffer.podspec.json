@@ -1,7 +1,5 @@
 {
   "name": "React-Mapbuffer",
-  "header_mappings_dir": "./",
-  "module_name": "React_Mapbuffer",
   "version": "0.73.1",
   "summary": "-",
   "homepage": "https://reactnative.dev/",
@@ -23,6 +21,8 @@
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
   },
+  "header_mappings_dir": "./",
+  "module_name": "React_Mapbuffer",
   "dependencies": {
     "glog": [],
     "React-debug": []
