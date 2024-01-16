@@ -22,7 +22,7 @@
     "DEFINES_MODULE": "YES"
   },
   "module_name": "React_rendererdebug",
-  "header_mappings_dir": "../../..",
+  "header_mappings_dir": "packages/react-native/ReactCommon",
   "dependencies": {
     "RCT-Folly": ["2022.05.16.00"],
     "DoubleConversion": [],
