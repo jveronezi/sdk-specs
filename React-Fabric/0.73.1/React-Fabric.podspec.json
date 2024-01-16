@@ -17,7 +17,7 @@
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
     "DEFINES_MODULE": "YES",
-    "HEADER_SEARCH_PATHS": "\"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererdebug/React_rendererdebug.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-debug/React_debug.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-utils/React_utils.framework/Headers\""
+    "HEADER_SEARCH_PATHS": "\"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererdebug/React_rendererdebug.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-debug/React_debug.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-utils/React_utils.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererdebug/React_rendererdebug.framework/Headers\""
   },
   "header_mappings_dir": "packages/react-native/ReactCommon",
   "module_name": "React_Fabric",
@@ -72,7 +72,7 @@
       "exclude_files": "packages/react-native/ReactCommon/react/renderer/core/tests",
       "header_dir": "react/renderer/core",
       "pod_target_xcconfig": {
-        "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/Headers/Private/Yoga\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\""
+        "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/Headers/Private/Yoga\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\"  \"$(PODS_TARGET_SRCROOT)/package/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/ios\" \"$(PODS_TARGET_SRCROOT)/package/react-native/ReactCommon/react/renderer/components/textinput/platform/ios\" \"$(PODS_TARGET_SRCROOT)/react/renderer/components/view/platform/cxx\""
       }
     },
     {
