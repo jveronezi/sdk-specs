@@ -21,7 +21,7 @@
     "USE_HEADERMAP": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
   },
-  "header_mappings_dir": "./",
+  "header_mappings_dir": "packages/react-native/ReactCommon",
   "module_name": "React_Mapbuffer",
   "dependencies": {
     "glog": [],

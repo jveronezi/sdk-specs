@@ -9,7 +9,7 @@
   "source": {
     "git": "https://github.com/jveronezi/SdkPod.git"
   },
-  "header_mappings_dir": "./",
+  "header_mappings_dir": "SdkPod/Assets/Codegen",
   "platforms": {
     "ios": "13.4"
   },
