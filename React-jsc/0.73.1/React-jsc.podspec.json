@@ -13,6 +13,9 @@
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/ReactCommon/jsc/JSCRuntime.{cpp,h}",
+  "header_dir": "jsc",
+  "module_name": "React_jsc",
+  "header_mappings_dir": "packages/react-native/ReactCommon",
   "frameworks": "JavaScriptCore",
   "dependencies": {
     "React-jsi": ["0.73.1"]
