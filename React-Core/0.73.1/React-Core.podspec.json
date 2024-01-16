@@ -26,7 +26,8 @@
       "$(PODS_ROOT)/fmt/include",
       "$(PODS_ROOT)/RCT-Folly",
       "${PODS_ROOT}/Headers/Public/FlipperKit",
-      "$(PODS_ROOT)/Headers/Public/ReactCommon"
+      "$(PODS_ROOT)/Headers/Public/ReactCommon",
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector_modern.framework/Headers"
     ],
     "DEFINES_MODULE": "YES",
     "GCC_PREPROCESSOR_DEFINITIONS": "RCT_METRO_PORT=${RCT_METRO_PORT}",
