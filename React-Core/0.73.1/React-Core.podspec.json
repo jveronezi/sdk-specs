@@ -27,6 +27,8 @@
       "$(PODS_ROOT)/RCT-Folly",
       "${PODS_ROOT}/Headers/Public/FlipperKit",
       "$(PODS_ROOT)/Headers/Public/ReactCommon",
+      "$(PODS_ROOT)/React-jsinspector/packages/react-native/ReactCommon/jsinspector-modern",
+      "$(PODS_ROOT)/React-jsinspector",
       "${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector_modern.framework/Headers"
     ],
     "DEFINES_MODULE": "YES",
@@ -35,7 +37,7 @@
     "FRAMEWORK_SEARCH_PATHS": ""
   },
   "user_target_xcconfig": {
-    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/React-Core\""
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/React-Core\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector_modern.framework/Headers\""
   },
   "default_subspecs": "Default",
   "dependencies": {
@@ -71,6 +73,7 @@
         "packages/react-native/React/DevSupport/*.{h,mm,m}",
         "packages/react-native/React/Inspector/*.{h,mm,m}"
       ],
+      "private_header_files": "packages/react-native/React/Inspector/RCTCxx*.h",
       "dependencies": {
         "React-Core/Default": ["0.73.1"],
         "React-Core/RCTWebSocket": ["0.73.1"],
