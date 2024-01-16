@@ -206,7 +206,7 @@
           },
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
           "source_files": "packages/react-native/ReactCommon/react/renderer/components/view/**/*.{m,mm,cpp,h}",
-          "packages/react-native/exclude_files": [
+          "exclude_files": [
             "packages/react-native/ReactCommon/react/renderer/components/view/tests",
             "packages/react-native/ReactCommon/react/renderer/components/view/platform/android"
           ],
