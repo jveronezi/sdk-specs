@@ -212,7 +212,7 @@
           ],
           "header_dir": "react/renderer/components/view",
           "pod_target_xcconfig": {
-            "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/Yoga\""
+            "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/Yoga\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-rendererdebug/React_rendererdebug.framework/Headers\""
           }
         }
       ]
