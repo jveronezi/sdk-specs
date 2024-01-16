@@ -19,5 +19,5 @@
     "DEFINES_MODULE": "YES"
   },
   "module_name": "React_debug",
-  "header_mappings_dir": "packages/react-native/ReactCommon/react/debug"
+  "header_mappings_dir": "packages/react-native/ReactCommon/react"
 }
