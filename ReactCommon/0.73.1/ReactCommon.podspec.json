@@ -21,7 +21,7 @@
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
     "GCC_WARN_PEDANTIC": "YES"
   },
-  "header_mappings_dir": "./",
+  "header_mappings_dir": "packages/react-native/ReactCommon",
   "dependencies": {
     "React-logger": ["0.73.1"]
   },
@@ -48,7 +48,7 @@
           "exclude_files": "packages/react-native/ReactCommon/react/bridging/tests",
           "header_dir": "react/bridging",
           "pod_target_xcconfig": {
-            "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\""
+            "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\""
           }
         },
         {
