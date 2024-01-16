@@ -21,10 +21,10 @@
   ],
   "header_dir": "react/renderer/graphics",
   "module_name": "React_graphics",
-  "header_mappings_dir": "../../..",
+  "header_mappings_dir": "packages/react-native/ReactCommon",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "NO",
-    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/../../../\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_TARGET_SRCROOT)/platform/ios\"",
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/graphics/platform/ios\"",
     "DEFINES_MODULE": "YES",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
   },
