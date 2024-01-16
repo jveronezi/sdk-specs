@@ -15,6 +15,7 @@
   "source_files": "packages/react-native/ReactCommon/jsinspector-modern/*.{cpp,h}",
   "header_dir": "jsinspector-modern",
   "module_name": "React_jsinspector",
+  "header_mappings_dir": "packages/react-native/ReactCommon",
   "pod_target_xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
   }
