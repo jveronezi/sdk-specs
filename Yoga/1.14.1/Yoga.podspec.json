@@ -78,5 +78,5 @@
     "packages/react-native/ReactCommon/yoga/yoga/style/CompactValue.h",
     "packages/react-native/ReactCommon/yoga/yoga/style/Style.h"
   ],
-  "preserve_paths": ["packages/react-native/ReactCommon/yoga/yoga/**/*.h"]
+  "preserve_paths": ["packages/react-native/ReactCommon/**/*.h"]
 }
