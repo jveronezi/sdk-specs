@@ -20,7 +20,7 @@
   "frameworks": "JavaScriptCore",
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": [
-      "$(PODS_TARGET_SRCROOT)/ReactCommon",
+      "$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon",
       "$(PODS_ROOT)/boost",
       "$(PODS_ROOT)/DoubleConversion",
       "$(PODS_ROOT)/fmt/include",
