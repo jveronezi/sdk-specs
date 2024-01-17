@@ -13,6 +13,7 @@
   },
   "source_files": "SdkPod/Assets/rncore/**/*.{h,mm,cpp}",
   "header_dir": "react/renderer/components/rncore",
+  "header_mappings_dir": "react/renderer/components/rncore",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)\" \"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core\"",
