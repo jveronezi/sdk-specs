@@ -72,7 +72,7 @@
       "exclude_files": "packages/react-native/ReactCommon/react/renderer/core/tests",
       "header_dir": "react/renderer/core",
       "pod_target_xcconfig": {
-        "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/Headers/Private/Yoga\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\"  \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/ios\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/components/textinput/platform/ios\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/components/view/platform/cxx\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/imagemanager/platform/ios\""
+        "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/Headers/Private/Yoga\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\"  \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/ios\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/components/textinput/platform/ios\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/components/view/platform/cxx\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/imagemanager/platform/ios\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/components/textinput/iostextinput\""
       }
     },
     {
