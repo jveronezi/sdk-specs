@@ -11,9 +11,9 @@
   "source": {
     "git": "https://github.com/jveronezi/SdkPod.git"
   },
-  "source_files": "SdkPod/Assets/rncore/**/*.{h,mm,cpp}",
+  "source_files": "SdkPod/Assets/react/renderer/components/rncore/**/*.{h,mm,cpp}",
   "header_dir": "react/renderer/components/rncore",
-  "header_mappings_dir": "react/renderer/components/rncore",
+  "header_mappings_dir": "SdkPod/Assets/",
   "module_name": "React_rncore",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
