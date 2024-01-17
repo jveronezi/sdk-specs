@@ -48,7 +48,7 @@
         "RCT-Folly/Fabric": ["2022.05.16.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
-      "source_files": "packages/react-native/ReactCommon/react/renderer/animations/*.{m,mm,cpp,h}",
+      "source_files": "packages/react-native/ReactCommon/react/renderer/animations/**/*.{m,mm,cpp,h}",
       "exclude_files": "packages/react-native/ReactCommon/react/renderer/animations/tests",
       "header_dir": "react/renderer/animations"
     },
@@ -58,7 +58,7 @@
         "RCT-Folly/Fabric": ["2022.05.16.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
-      "source_files": "packages/react-native/ReactCommon/react/renderer/attributedstring/*.{m,mm,cpp,h}",
+      "source_files": "packages/react-native/ReactCommon/react/renderer/attributedstring/**/*.{m,mm,cpp,h}",
       "exclude_files": "packages/react-native/ReactCommon/react/renderer/attributedstring/tests",
       "header_dir": "react/renderer/attributedstring"
     },
@@ -68,11 +68,11 @@
         "RCT-Folly/Fabric": ["2022.05.16.00"]
       },
       "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments -Wno-documentation",
-      "source_files": "packages/react-native/ReactCommon/react/renderer/core/*.{m,mm,cpp,h}",
+      "source_files": "packages/react-native/ReactCommon/react/renderer/core/**/*.{m,mm,cpp,h}",
       "exclude_files": "packages/react-native/ReactCommon/react/renderer/core/tests",
       "header_dir": "react/renderer/core",
       "pod_target_xcconfig": {
-        "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/Headers/Private/Yoga\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\"  \"$(PODS_TARGET_SRCROOT)/package/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/ios\" \"$(PODS_TARGET_SRCROOT)/package/react-native/ReactCommon/react/renderer/components/textinput/platform/ios\" \"$(PODS_TARGET_SRCROOT)/react/renderer/components/view/platform/cxx\""
+        "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon\" \"$(PODS_ROOT)/RCT-Folly\" \"$(PODS_ROOT)/Headers/Private/Yoga\" \"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/fmt/include\"  \"$(PODS_TARGET_SRCROOT)/package/react-native/ReactCommon/react/renderer/textlayoutmanager/platform/ios\" \"$(PODS_TARGET_SRCROOT)/package/react-native/ReactCommon/react/renderer/components/textinput/platform/ios\" \"$(PODS_TARGET_SRCROOT)/packages/react-native/ReactCommon/react/renderer/components/view/platform/cxx\""
       }
     },
     {
@@ -206,7 +206,7 @@
           },
           "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-gnu-zero-variadic-macro-arguments",
           "source_files": [
-            "packages/react-native/ReactCommon/react/renderer/components/view/platform/ios/**/*.{m,mm,cpp,h}",
+            "packages/react-native/ReactCommon/react/renderer/components/view/platform/cxx/react/renderer/components/view/**/*.{m,mm,cpp,h}",
             "packages/react-native/ReactCommon/react/renderer/components/view/**/*.{m,mm,cpp,h}"
           ],
           "exclude_files": [
