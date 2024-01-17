@@ -9,12 +9,10 @@
     "ios": "13.4"
   },
   "source": {
-    "git": "https://github.com/jveronezi/SdkPod.git"
+    "git": "https://github.com/facebook/react-native.git",
+    "tag": "v0.73.1"
   },
-  "source_files": "SdkPod/Assets/react/renderer/components/rncore/**/*.{h,mm,cpp}",
-  "header_dir": "react/renderer/components/rncore",
-  "header_mappings_dir": "SdkPod/Assets/",
-  "module_name": "React_rncore",
+  "source_files": "dummyFile.cpp",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/SdkPod/Assets\" \"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core\" \"$(PODS_ROOT)/Headers/Private/React-Fabric\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-FabricImage/React_FabricImage.framework/Headers\"",
