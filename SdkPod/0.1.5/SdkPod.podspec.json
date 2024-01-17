@@ -59,6 +59,6 @@
     "RCT-Folly": ["2022.05.16.00"],
     "glog": ["0.3.5"],
     "boost": ["1.83.0"],
-    "React-RCTAppDelegate": ["0.73.1"]
+    "React-RCTFabric": ["0.73.1"]
   }
 }
