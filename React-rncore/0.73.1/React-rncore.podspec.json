@@ -9,8 +9,7 @@
     "ios": "13.4"
   },
   "source": {
-    "git": "https://github.com/jveronezi/SdkPod.git",
-    "tag": "v0.73.1"
+    "git": "https://github.com/jveronezi/SdkPod.git"
   },
   "source_files": "SdkPod/Assets/rncore/**/*.{h,mm,cpp}",
   "header_dir": "react/renderer/components/rncore",
