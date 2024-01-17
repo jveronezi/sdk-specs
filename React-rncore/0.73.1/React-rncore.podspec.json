@@ -12,7 +12,7 @@
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
-  "source_files": "packages/react-native/ReactCommon/react/renderer/components/rncore/*.{cpp,h}",
+  "source_files": "dummyFile.cpp",
   "pod_target_xcconfig": {
     "USE_HEADERMAP": "YES",
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)\" \"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core\"",
