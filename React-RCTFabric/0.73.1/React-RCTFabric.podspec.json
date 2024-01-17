@@ -15,8 +15,8 @@
   "source_files": "react-native/packages/react-native/React/Fabric/**/*.{c,h,m,mm,S,cpp}",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation",
   "exclude_files": [
-    "react-native/packages/react-native/React/Fabric/**/tests/*",
-    "react-native/packages/react-native/React/Fabric/**/android/*",
+    "react-native/packages/react-native/React/**/tests/*",
+    "react-native/packages/react-native/React/**/android/*",
     "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation"
   ],
   "header_dir": "React",
