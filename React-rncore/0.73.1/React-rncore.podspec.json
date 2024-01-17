@@ -20,7 +20,7 @@
   "script_phases": [
     {
       "name": "Copy Files Script",
-      "script": "mkdir -p \"${PODS_ROOT}/React-Fabric/packages/react-native/ReactCommon/react/renderer/components/rncore\" && cp -R \"${PODS_TARGET_SRCROOT}/SdkPod/Assets/react/renderer/components/rncore\" \"${PODS_ROOT}/React-Fabric/packages/react-native/ReactCommon/react/renderer/components/rncore\"",
+      "script": "mkdir -p \"${PODS_ROOT}/React-Fabric/packages/react-native/ReactCommon/react/renderer/components/rncore\" && cp -R \"${PODS_TARGET_SRCROOT}/SdkPod/Assets/react/renderer/components/rncore\" \"${PODS_ROOT}/React-Fabric/packages/react-native/ReactCommon/react/renderer/components\"",
       "execution_position": "before_compile"
     }
   ]
