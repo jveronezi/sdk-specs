@@ -53,8 +53,8 @@
         },
         {
           "name": "core",
-          "source_files": "packages/react-native/ReactCommon/react/nativemodule/core/ReactCommon/**/*.{cpp,h}",
-          "header_mappings_dir": "packages/react-native/ReactCommon/react/nativemodule/core/",
+          "source_files": "packages/react-native/ReactCommon/react/nativemodule/core/**/*.{cpp,h}",
+          "exclude_files": "packages/react-native/ReactCommon/react/nativemodule/core/platform",
           "header_dir": "ReactCommon"
         }
       ]
