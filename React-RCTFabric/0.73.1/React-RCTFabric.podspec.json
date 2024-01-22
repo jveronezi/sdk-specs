@@ -54,12 +54,5 @@
       "source_files": "Tests/**/*.{mm}",
       "frameworks": "XCTest"
     }
-  ],
-  "script_phase": [
-    {
-      "name": "Copy Files Script",
-      "script": "cp -R \"${PODS_ROOT}/ExtraComponents/SdkPod/Assets/RCTFabric/*\" \"${PODS_ROOT}/React-RCTFabric/packages/react-native/React/Fabric\"",
-      "execution_position": "before_compile"
-    }
   ]
 }
