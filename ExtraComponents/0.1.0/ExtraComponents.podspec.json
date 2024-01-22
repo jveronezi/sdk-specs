@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ExtraComponents.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/facebook/react-native",
+  "homepage": "https://github.com/jveronezi/SdkPod.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "jveronezi": "jveronezi@fullstacklabs.co"
   },
   "source": {
-    "git": "https://github.com/facebook/react-native.git",
-    "tag": "v0.73.1"
+    "git": "https://github.com/jveronezi/SdkPod.git"
   },
   "platforms": {
     "ios": "13.4"
   },
-  "source_files": "packages/react-native/Libraries/**/*.js"
+  "resource_bundles": {
+    "ExtraComponents": ["SdkPod/Assets/RCTFabric/**/*.{h,mm,cpp}"]
+  }
 }
