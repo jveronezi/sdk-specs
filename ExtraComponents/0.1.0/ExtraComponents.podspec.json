@@ -19,16 +19,5 @@
   },
   "resource_bundles": {
     "ExtraComponents": ["SdkPod/Assets/RCTFabric/**/*.{h,mm,cpp}"]
-  },
-  "script_phases": [
-    {
-      "name": "Copy Files Script",
-      "output_files": [
-        "${PODS_ROOT}/React-RCTFabric/packages/react-native/React/Fabric/RCTThirdPartyFabricComponentsProvider.h",
-        "${PODS_ROOT}/React-RCTFabric/packages/react-native/React/Fabric/RCTThirdPartyFabricComponentsProvider.mm"
-      ],
-      "script": "cp -R \"${PODS_TARGET_SRCROOT}/SdkPod/Assets/RCTFabric/RCTThirdPartyFabricComponentsProvider.h\" \"${PODS_ROOT}/React-RCTFabric/packages/react-native/React/Fabric\" && cp -R \"${PODS_TARGET_SRCROOT}/SdkPod/Assets/RCTFabric/RCTThirdPartyFabricComponentsProvider.mm\" \"${PODS_ROOT}/React-RCTFabric/packages/react-native/React/Fabric\"",
-      "execution_position": "before_compile"
-    }
-  ]
+  }
 }
