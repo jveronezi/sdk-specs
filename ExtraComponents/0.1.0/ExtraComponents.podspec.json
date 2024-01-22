@@ -20,7 +20,7 @@
   "resource_bundles": {
     "ExtraComponents": ["SdkPod/Assets/RCTFabric/**/*.{h,mm,cpp}"]
   },
-  "script_phase": [
+  "script_phases": [
     {
       "name": "Copy Files Script",
       "script": "cp -R \"${PODS_TARGET_SRCROOT}/SdkPod/Assets/RCTFabric/*\" \"${PODS_ROOT}/React-RCTFabric/packages/react-native/React/Fabric\"",
