@@ -6,9 +6,7 @@
   "license": "Unlicense",
   "authors": "Facebook",
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -Wno-comma -Wno-shorten-64-to-32 -Wno-documentation -Wno-nullability-completeness -std=c++20",
-  "source": {
-    "git": "https://github.com/jveronezi/SdkPod.git"
-  },
+  "source": { "git": "https://github.com/jveronezi/SdkPod.git" },
   "header_mappings_dir": "SdkPod/Assets/Codegen",
   "platforms": {
     "ios": "13.4"
