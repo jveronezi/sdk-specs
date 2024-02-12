@@ -6,7 +6,7 @@
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
@@ -24,8 +24,14 @@
   "module_name": "React_utils",
   "header_mappings_dir": "packages/react-native/ReactCommon",
   "dependencies": {
-    "RCT-Folly": ["2022.05.16.00"],
-    "glog": [],
-    "React-debug": []
+    "RCT-Folly": [
+      "2022.05.16.00"
+    ],
+    "glog": [
+
+    ],
+    "React-debug": [
+
+    ]
   }
 }

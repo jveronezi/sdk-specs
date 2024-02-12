@@ -6,7 +6,7 @@
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
@@ -20,6 +20,8 @@
   },
   "header_dir": "logger",
   "dependencies": {
-    "glog": []
+    "glog": [
+
+    ]
   }
 }

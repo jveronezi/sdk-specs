@@ -6,7 +6,7 @@
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
@@ -19,17 +19,26 @@
     "DEFINES_MODULE": "YES"
   },
   "dependencies": {
-    "boost": ["1.83.0"],
-    "DoubleConversion": [],
-    "fmt": ["~> 6.2.1"],
-    "RCT-Folly": ["2022.05.16.00"],
-    "glog": []
+    "boost": [
+      "1.83.0"
+    ],
+    "DoubleConversion": [
+
+    ],
+    "fmt": [
+      "~> 6.2.1"
+    ],
+    "RCT-Folly": [
+      "2022.05.16.00"
+    ],
+    "glog": [
+
+    ]
   },
   "source_files": "packages/react-native/ReactCommon/jsi/**/*.{cpp,h}",
   "exclude_files": [
-    "packages/react-native/ReactCommon/jsi/jsilib-posix.cpp",
-    "packages/react-native/ReactCommon/jsi/jsilib-windows.cpp",
-    "packages/react-native/ReactCommon/**/test/*",
-    "packages/react-native/ReactCommon/jsi/jsi.cpp"
-  ]
+"packages/react-native/ReactCommon/jsi/jsilib-posix.cpp",
+"packages/react-native/ReactCommon/jsi/jsilib-windows.cpp",
+"packages/react-native/ReactCommon/**/test/*",
+"packages/react-native/ReactCommon/jsi/jsi.cpp"]
 }

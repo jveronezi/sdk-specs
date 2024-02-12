@@ -6,7 +6,7 @@
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
@@ -21,17 +21,41 @@
   },
   "header_dir": "cxxreact",
   "dependencies": {
-    "boost": ["1.83.0"],
-    "DoubleConversion": [],
-    "fmt": ["~> 6.2.1"],
-    "RCT-Folly": ["2022.05.16.00"],
-    "glog": [],
-    "React-jsinspector": ["0.73.1"],
-    "React-callinvoker": ["0.73.1"],
-    "React-runtimeexecutor": ["0.73.1"],
-    "React-perflogger": ["0.73.1"],
-    "React-jsi": ["0.73.1"],
-    "React-logger": ["0.73.1"],
-    "React-debug": ["0.73.1"]
+    "boost": [
+      "1.83.0"
+    ],
+    "DoubleConversion": [
+
+    ],
+    "fmt": [
+      "~> 6.2.1"
+    ],
+    "RCT-Folly": [
+      "2022.05.16.00"
+    ],
+    "glog": [
+
+    ],
+    "React-jsinspector": [
+      "0.73.1"
+    ],
+    "React-callinvoker": [
+      "0.73.1"
+    ],
+    "React-runtimeexecutor": [
+      "0.73.1"
+    ],
+    "React-perflogger": [
+      "0.73.1"
+    ],
+    "React-jsi": [
+      "0.73.1"
+    ],
+    "React-logger": [
+      "0.73.1"
+    ],
+    "React-debug": [
+      "0.73.1"
+    ]
   }
 }

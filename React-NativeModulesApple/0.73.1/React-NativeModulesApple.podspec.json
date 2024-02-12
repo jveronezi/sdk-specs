@@ -24,14 +24,32 @@
   "header_mappings_dir": "packages/react-native/ReactCommon/react/nativemodule/core/platform/ios",
   "source_files": "packages/react-native/ReactCommon/react/nativemodule/core/platform/ios/**/*.{mm,cpp,h}",
   "dependencies": {
-    "glog": [],
-    "ReactCommon/turbomodule/core": [],
-    "ReactCommon/turbomodule/bridging": [],
-    "React-callinvoker": [],
-    "React-Core": [],
-    "React-cxxreact": [],
-    "React-jsi": [],
-    "React-runtimeexecutor": [],
-    "React-jsc": []
+    "glog": [
+
+    ],
+    "ReactCommon/turbomodule/core": [
+
+    ],
+    "ReactCommon/turbomodule/bridging": [
+
+    ],
+    "React-callinvoker": [
+
+    ],
+    "React-Core": [
+
+    ],
+    "React-cxxreact": [
+
+    ],
+    "React-jsi": [
+
+    ],
+    "React-runtimeexecutor": [
+
+    ],
+    "React-jsc": [
+
+    ]
   }
 }

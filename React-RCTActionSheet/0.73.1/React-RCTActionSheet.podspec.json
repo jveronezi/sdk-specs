@@ -7,16 +7,22 @@
   "license": "MIT",
   "authors": "Meta Platforms, Inc. and its affiliates",
   "platforms": {
-    "ios": "12.4"
+    "ios": "13.4"
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
     "tag": "v0.73.1"
   },
   "source_files": "packages/react-native/Libraries/ActionSheetIOS/*.{m}",
-  "preserve_paths": ["package.json", "LICENSE", "LICENSE-docs"],
+  "preserve_paths": [
+    "package.json",
+    "LICENSE",
+    "LICENSE-docs"
+  ],
   "header_dir": "RCTActionSheet",
   "dependencies": {
-    "React-Core/RCTActionSheetHeaders": ["0.73.1"]
+    "React-Core/RCTActionSheetHeaders": [
+      "0.73.1"
+    ]
   }
 }
